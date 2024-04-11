@@ -1,0 +1,2987 @@
+[
+  {
+    "Stop_Code_LBSL": 10001,
+    "Bus_Stop_Code": 72689,
+    "Naptan_Atco": "490013793E",
+    "Stop_Name": "TREVOR CLOSE",
+    "Location_Easting": 51.460191,
+    "Location_Northing": -0.334831,
+    "Heading": 78,
+    "Stop_Area": "NB16",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.460191,
+      "lon": -0.334831
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10002,
+    "Bus_Stop_Code": 48461,
+    "Naptan_Atco": "490000108F",
+    "Stop_Name": "HIGHBURY CORNER",
+    "Location_Easting": 51.544982,
+    "Location_Northing": -0.103395,
+    "Heading": 5,
+    "Stop_Area": "C902",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.544982,
+      "lon": -0.103395
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10003,
+    "Bus_Stop_Code": 77150,
+    "Naptan_Atco": "490000108B",
+    "Stop_Name": "HIGHBURY & ISLINGTON STATION <> #",
+    "Location_Easting": 51.546637,
+    "Location_Northing": -0.103918,
+    "Heading": 127,
+    "Stop_Area": "C903",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.546637,
+      "lon": -0.103918
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10004,
+    "Bus_Stop_Code": 48037,
+    "Naptan_Atco": "490012451S",
+    "Stop_Name": "ST MARY MAGDALENE CHURCH",
+    "Location_Easting": 51.548078,
+    "Location_Northing": -0.10631,
+    "Heading": 136,
+    "Stop_Area": "C904",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.548078,
+      "lon": -0.10631
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10005,
+    "Bus_Stop_Code": 57538,
+    "Naptan_Atco": "490012451N",
+    "Stop_Name": "ST MARY MAGDALENE CHURCH",
+    "Location_Easting": 51.548698,
+    "Location_Northing": -0.107366,
+    "Heading": 322,
+    "Stop_Area": "C904",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.548698,
+      "lon": -0.107366
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10010,
+    "Bus_Stop_Code": 48458,
+    "Naptan_Atco": "490000114Y",
+    "Stop_Name": "HOLLOWAY ROAD STATION <>",
+    "Location_Easting": 51.552311,
+    "Location_Northing": -0.111745,
+    "Heading": 140,
+    "Stop_Area": "C703",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.552311,
+      "lon": -0.111745
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10011,
+    "Bus_Stop_Code": 58713,
+    "Naptan_Atco": "490000114U",
+    "Stop_Name": "HOLLOWAY ROAD STATION <>",
+    "Location_Easting": 51.552886,
+    "Location_Northing": -0.112803,
+    "Heading": 321,
+    "Stop_Area": "C703",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.552886,
+      "lon": -0.112803
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10014,
+    "Bus_Stop_Code": 71829,
+    "Naptan_Atco": "490009485R",
+    "Stop_Name": "LYNWOOD ROAD",
+    "Location_Easting": 51.531159,
+    "Location_Northing": -0.300972,
+    "Heading": 99,
+    "Stop_Area": "QT08",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.531159,
+      "lon": -0.300972
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10015,
+    "Bus_Stop_Code": 54595,
+    "Naptan_Atco": "490009485Q",
+    "Stop_Name": "LYNWOOD ROAD",
+    "Location_Easting": 51.530943,
+    "Location_Northing": -0.3016,
+    "Heading": 278,
+    "Stop_Area": "QT08",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.530943,
+      "lon": -0.3016
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10016,
+    "Bus_Stop_Code": 71358,
+    "Naptan_Atco": "490003803W",
+    "Stop_Name": "WOOLWICH ROAD / BEDONWELL ROAD",
+    "Location_Easting": 51.481515,
+    "Location_Northing": 0.132559,
+    "Heading": 254,
+    "Stop_Area": "E609",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.481515,
+      "lon": 0.132559
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10017,
+    "Bus_Stop_Code": 53343,
+    "Naptan_Atco": "490003803E",
+    "Stop_Name": "WOOLWICH ROAD / BEDONWELL ROAD",
+    "Location_Easting": 51.481561,
+    "Location_Northing": 0.130488,
+    "Heading": 88,
+    "Stop_Area": "E609",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.481561,
+      "lon": 0.130488
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10019,
+    "Bus_Stop_Code": 54840,
+    "Naptan_Atco": "490011348E",
+    "Stop_Name": "QUEENS ROAD",
+    "Location_Easting": 51.399085,
+    "Location_Northing": -0.250135,
+    "Heading": 83,
+    "Stop_Area": "K306",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.399085,
+      "lon": -0.250135
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10023,
+    "Bus_Stop_Code": 47747,
+    "Naptan_Atco": "490012751E",
+    "Stop_Name": "ST JOSEPH'S CHURCH",
+    "Location_Easting": 51.399587,
+    "Location_Northing": -0.260854,
+    "Heading": 106,
+    "Stop_Area": "K302",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.399587,
+      "lon": -0.260854
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10024,
+    "Bus_Stop_Code": 55564,
+    "Naptan_Atco": "490012751W",
+    "Stop_Name": "ST JOSEPH'S CHURCH",
+    "Location_Easting": 51.399654,
+    "Location_Northing": -0.261758,
+    "Heading": 286,
+    "Stop_Area": "K302",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.399654,
+      "lon": -0.261758
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10028,
+    "Bus_Stop_Code": 54775,
+    "Naptan_Atco": "490014411W",
+    "Stop_Name": "WESTBURY ROAD",
+    "Location_Easting": 51.400936,
+    "Location_Northing": -0.266309,
+    "Heading": 294,
+    "Stop_Area": "K301",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.400936,
+      "lon": -0.266309
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10031,
+    "Bus_Stop_Code": 54086,
+    "Naptan_Atco": "490006079E",
+    "Stop_Name": "ARCHDALE PLACE",
+    "Location_Easting": 51.404577,
+    "Location_Northing": -0.277242,
+    "Heading": 124,
+    "Stop_Area": "K415",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.404577,
+      "lon": -0.277242
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10032,
+    "Bus_Stop_Code": 48984,
+    "Naptan_Atco": "490003361W",
+    "Stop_Name": "CALIFORNIA ROAD",
+    "Location_Easting": 51.403593,
+    "Location_Northing": -0.275166,
+    "Heading": 295,
+    "Stop_Area": "K415",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.403593,
+      "lon": -0.275166
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10037,
+    "Bus_Stop_Code": 55215,
+    "Naptan_Atco": "490014286E",
+    "Stop_Name": "WATERS ROAD",
+    "Location_Easting": 51.407142,
+    "Location_Northing": -0.282897,
+    "Heading": 130,
+    "Stop_Area": "K206",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.407142,
+      "lon": -0.282897
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10038,
+    "Bus_Stop_Code": 49132,
+    "Naptan_Atco": "490004703W",
+    "Stop_Name": "CAMBRIDGE GROVE",
+    "Location_Easting": 51.408898,
+    "Location_Northing": -0.286757,
+    "Heading": 299,
+    "Stop_Area": "K205",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.408898,
+      "lon": -0.286757
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10041,
+    "Bus_Stop_Code": 48178,
+    "Naptan_Atco": "490014039E",
+    "Stop_Name": "VICARAGE HOUSE",
+    "Location_Easting": 51.410084,
+    "Location_Northing": -0.291027,
+    "Heading": 101,
+    "Stop_Area": "K202",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.410084,
+      "lon": -0.291027
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1005,
+    "Bus_Stop_Code": 73736,
+    "Naptan_Atco": "490001237G",
+    "Stop_Name": "RAYNES PARK STATION #",
+    "Location_Easting": 51.408882,
+    "Location_Northing": -0.229429,
+    "Heading": 248,
+    "Stop_Area": "LG02",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.408882,
+      "lon": -0.229429
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1007,
+    "Bus_Stop_Code": 52849,
+    "Naptan_Atco": "490012452W",
+    "Stop_Name": "KINGS ROAD",
+    "Location_Easting": 51.462115,
+    "Location_Northing": -0.292942,
+    "Heading": 278,
+    "Stop_Area": "M814",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.462115,
+      "lon": -0.292942
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1008,
+    "Bus_Stop_Code": 52652,
+    "Naptan_Atco": "490012452SH",
+    "Stop_Name": "ST MARY'S GROVE",
+    "Location_Easting": 51.462083,
+    "Location_Northing": -0.291359,
+    "Heading": 103,
+    "Stop_Area": "M814",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.462083,
+      "lon": -0.291359
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1010,
+    "Bus_Stop_Code": 55430,
+    "Naptan_Atco": "490005340K",
+    "Stop_Name": "CLAPTON POND",
+    "Location_Easting": 51.555945,
+    "Location_Northing": -0.056157,
+    "Heading": 66,
+    "Stop_Area": "D908",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.555945,
+      "lon": -0.056157
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10107,
+    "Bus_Stop_Code": 76125,
+    "Naptan_Atco": 3700083,
+    "Stop_Name": "CEDAR WAY",
+    "Location_Easting": 51.497456,
+    "Location_Northing": -0.556026,
+    "Heading": 303,
+    "Stop_Area": "6Z11",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.497456,
+      "lon": -0.556026
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1011,
+    "Bus_Stop_Code": 54763,
+    "Naptan_Atco": "490009035E",
+    "Stop_Name": "CLAPTON POND",
+    "Location_Easting": 51.5568,
+    "Location_Northing": -0.055687,
+    "Heading": 168,
+    "Stop_Area": "D902",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.5568,
+      "lon": -0.055687
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10111,
+    "Bus_Stop_Code": 77093,
+    "Naptan_Atco": 3700085,
+    "Stop_Name": "DITTON PARK ROAD",
+    "Location_Easting": 51.494819,
+    "Location_Northing": -0.550059,
+    "Heading": 124,
+    "Stop_Area": "6Z10",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.494819,
+      "lon": -0.550059
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1013,
+    "Bus_Stop_Code": 74398,
+    "Naptan_Atco": "490006047D",
+    "Stop_Name": "CHAPTER ROAD",
+    "Location_Easting": 51.550444,
+    "Location_Northing": -0.240944,
+    "Heading": 319,
+    "Stop_Area": "R702",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.550444,
+      "lon": -0.240944
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1014,
+    "Bus_Stop_Code": 53531,
+    "Naptan_Atco": "490004989C",
+    "Stop_Name": "CHAPTER ROAD",
+    "Location_Easting": 51.550771,
+    "Location_Northing": -0.241162,
+    "Heading": 137,
+    "Stop_Area": "R702",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.550771,
+      "lon": -0.241162
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1017,
+    "Bus_Stop_Code": 77744,
+    "Naptan_Atco": "490013229P",
+    "Stop_Name": "ST JOHN STREET / GOSWELL ROAD",
+    "Location_Easting": 51.531414,
+    "Location_Northing": -0.10628,
+    "Heading": 349,
+    "Stop_Area": "C102",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.531414,
+      "lon": -0.10628
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1019,
+    "Bus_Stop_Code": 50678,
+    "Naptan_Atco": "490004760T",
+    "Stop_Name": "CANONS CORNER",
+    "Location_Easting": 51.622075,
+    "Location_Northing": -0.292016,
+    "Heading": 54,
+    "Stop_Area": "SD07",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.622075,
+      "lon": -0.292016
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1023,
+    "Bus_Stop_Code": 55186,
+    "Naptan_Atco": "490013149K",
+    "Stop_Name": "TALLY HO CORNER",
+    "Location_Easting": 51.613719,
+    "Location_Northing": -0.17704,
+    "Heading": 14,
+    "Stop_Area": "TU08",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.613719,
+      "lon": -0.17704
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10240,
+    "Bus_Stop_Code": 56141,
+    "Naptan_Atco": "490000127KA",
+    "Stop_Name": "KILBURN PARK STATION <>",
+    "Location_Easting": 51.535511,
+    "Location_Northing": -0.193273,
+    "Heading": 23,
+    "Stop_Area": "RC09",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.535511,
+      "lon": -0.193273
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10241,
+    "Bus_Stop_Code": 72081,
+    "Naptan_Atco": "490000127KB",
+    "Stop_Name": "KILBURN PARK STATION <>",
+    "Location_Easting": 51.53469,
+    "Location_Northing": -0.193695,
+    "Heading": 200,
+    "Stop_Area": "RC09",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.53469,
+      "lon": -0.193695
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10242,
+    "Bus_Stop_Code": 50012,
+    "Naptan_Atco": "490013254J",
+    "Stop_Name": "FAIRLAWN AVENUE",
+    "Location_Easting": 51.588902,
+    "Location_Northing": -0.163916,
+    "Heading": 186,
+    "Stop_Area": "TW02",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.588902,
+      "lon": -0.163916
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10243,
+    "Bus_Stop_Code": 59162,
+    "Naptan_Atco": "490010117W",
+    "Stop_Name": "MULGRAVE ROAD",
+    "Location_Easting": 51.484222,
+    "Location_Northing": -0.205801,
+    "Heading": 255,
+    "Stop_Area": "6D02",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.484222,
+      "lon": -0.205801
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10244,
+    "Bus_Stop_Code": 50268,
+    "Naptan_Atco": "490007053E",
+    "Stop_Name": "FULHAM POOLS",
+    "Location_Easting": 51.483849,
+    "Location_Northing": -0.20789,
+    "Heading": 66,
+    "Stop_Area": "6G06",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.483849,
+      "lon": -0.20789
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10258,
+    "Bus_Stop_Code": 47901,
+    "Naptan_Atco": "490010101S",
+    "Stop_Name": "THIRLMERE GARDENS",
+    "Location_Easting": 51.616161,
+    "Location_Northing": -0.442242,
+    "Heading": 119,
+    "Stop_Area": "PN05",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.616161,
+      "lon": -0.442242
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1026,
+    "Bus_Stop_Code": 72076,
+    "Naptan_Atco": "490003351Q",
+    "Stop_Name": "QUEENS GROVE",
+    "Location_Easting": 51.536852,
+    "Location_Northing": -0.176451,
+    "Heading": 11,
+    "Stop_Area": "0Q04",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.536852,
+      "lon": -0.176451
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10260,
+    "Bus_Stop_Code": 71039,
+    "Naptan_Atco": "490007622M",
+    "Stop_Name": "HOMERTON HIGH ST / HACKNEY HOSPITAL",
+    "Location_Easting": 51.548809,
+    "Location_Northing": -0.039686,
+    "Heading": 252,
+    "Stop_Area": "DD16",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.548809,
+      "lon": -0.039686
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10261,
+    "Bus_Stop_Code": 55897,
+    "Naptan_Atco": "490007622L",
+    "Stop_Name": "HOMERTON HIGH ST / HACKNEY HOSPITAL",
+    "Location_Easting": 51.548859,
+    "Location_Northing": -0.040002,
+    "Heading": 73,
+    "Stop_Area": "DD16",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.548859,
+      "lon": -0.040002
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1027,
+    "Bus_Stop_Code": 73838,
+    "Naptan_Atco": "490011336S",
+    "Stop_Name": "QUEENS GROVE",
+    "Location_Easting": 51.536838,
+    "Location_Northing": -0.176163,
+    "Heading": 163,
+    "Stop_Area": "0Q05",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.536838,
+      "lon": -0.176163
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10281,
+    "Bus_Stop_Code": 53798,
+    "Naptan_Atco": "490001197A",
+    "Stop_Name": "MORDEN SOUTH STATION #",
+    "Location_Easting": 51.396751,
+    "Location_Northing": -0.2005,
+    "Heading": 5,
+    "Stop_Area": "LC09",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.396751,
+      "lon": -0.2005
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10282,
+    "Bus_Stop_Code": 56317,
+    "Naptan_Atco": "490001197B",
+    "Stop_Name": "MORDEN SOUTH STATION #",
+    "Location_Easting": 51.395877,
+    "Location_Northing": -0.200362,
+    "Heading": 202,
+    "Stop_Area": "LC09",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.395877,
+      "lon": -0.200362
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10283,
+    "Bus_Stop_Code": 72299,
+    "Naptan_Atco": "490004960N",
+    "Stop_Name": "CHALGROVE AVENUE",
+    "Location_Easting": 51.395262,
+    "Location_Northing": -0.201924,
+    "Heading": 58,
+    "Stop_Area": "LE14",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.395262,
+      "lon": -0.201924
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10284,
+    "Bus_Stop_Code": 55063,
+    "Naptan_Atco": "490004647E",
+    "Stop_Name": "BUSHEY ROAD / GRAND DRIVE",
+    "Location_Easting": 51.407168,
+    "Location_Northing": -0.230846,
+    "Heading": 79,
+    "Stop_Area": "LG01",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.407168,
+      "lon": -0.230846
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10287,
+    "Bus_Stop_Code": 48147,
+    "Naptan_Atco": "490004647N",
+    "Stop_Name": "BUSHEY ROAD",
+    "Location_Easting": 51.406203,
+    "Location_Northing": -0.229489,
+    "Heading": 357,
+    "Stop_Area": "LG06",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.406203,
+      "lon": -0.229489
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10288,
+    "Bus_Stop_Code": 57612,
+    "Naptan_Atco": "490004647S",
+    "Stop_Name": "BUSHEY ROAD",
+    "Location_Easting": 51.405553,
+    "Location_Northing": -0.229313,
+    "Heading": 176,
+    "Stop_Area": "LG06",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.405553,
+      "lon": -0.229313
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10289,
+    "Bus_Stop_Code": 72760,
+    "Naptan_Atco": "490009036S",
+    "Stop_Name": "LEA BRIDGE ROAD",
+    "Location_Easting": 51.570868,
+    "Location_Northing": -0.025736,
+    "Heading": 150,
+    "Stop_Area": "YJ06",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.570868,
+      "lon": -0.025736
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1029,
+    "Bus_Stop_Code": 72571,
+    "Naptan_Atco": "490013205W",
+    "Stop_Name": "THAMES AVENUE",
+    "Location_Easting": 51.52671,
+    "Location_Northing": 0.162654,
+    "Heading": 287,
+    "Stop_Area": "WK06",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.52671,
+      "lon": 0.162654
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10290,
+    "Bus_Stop_Code": 58626,
+    "Naptan_Atco": "490009668N",
+    "Stop_Name": "LEA BRIDGE ROAD",
+    "Location_Easting": 51.571145,
+    "Location_Northing": -0.026185,
+    "Heading": 325,
+    "Stop_Area": "YJ06",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.571145,
+      "lon": -0.026185
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10297,
+    "Bus_Stop_Code": 56388,
+    "Naptan_Atco": "490004188S",
+    "Stop_Name": "ST SAVIOUR'S CHURCH",
+    "Location_Easting": 51.573419,
+    "Location_Northing": -0.028266,
+    "Heading": 153,
+    "Stop_Area": "YA04",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.573419,
+      "lon": -0.028266
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1030,
+    "Bus_Stop_Code": 72331,
+    "Naptan_Atco": "490001014B",
+    "Stop_Name": "BARNES STATION #",
+    "Location_Easting": 51.466651,
+    "Location_Northing": -0.242023,
+    "Heading": 217,
+    "Stop_Area": "M401",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.466651,
+      "lon": -0.242023
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10300,
+    "Bus_Stop_Code": 59406,
+    "Naptan_Atco": "490011346N",
+    "Stop_Name": "QUEENS ROAD",
+    "Location_Easting": 51.576739,
+    "Location_Northing": -0.029984,
+    "Heading": 356,
+    "Stop_Area": "YA03",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.576739,
+      "lon": -0.029984
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10302,
+    "Bus_Stop_Code": 71309,
+    "Naptan_Atco": "490009667N",
+    "Stop_Name": "MARKHOUSE AVENUE",
+    "Location_Easting": 51.579061,
+    "Location_Northing": -0.030591,
+    "Heading": 347,
+    "Stop_Area": "YA02",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.579061,
+      "lon": -0.030591
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10303,
+    "Bus_Stop_Code": 56071,
+    "Naptan_Atco": "490009667S",
+    "Stop_Name": "MARKHOUSE AVENUE",
+    "Location_Easting": 51.578742,
+    "Location_Northing": -0.030345,
+    "Heading": 167,
+    "Stop_Area": "YA02",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.578742,
+      "lon": -0.030345
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10308,
+    "Bus_Stop_Code": 54143,
+    "Naptan_Atco": "490007974N",
+    "Stop_Name": "HAZELWOOD ROAD",
+    "Location_Easting": 51.582324,
+    "Location_Northing": -0.034823,
+    "Heading": 318,
+    "Stop_Area": "YH12",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.582324,
+      "lon": -0.034823
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10309,
+    "Bus_Stop_Code": 74646,
+    "Naptan_Atco": "490014166R",
+    "Stop_Name": "WALTHAMSTOW MARKET",
+    "Location_Easting": 51.581891,
+    "Location_Northing": -0.034193,
+    "Heading": 156,
+    "Stop_Area": "YH12",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.581891,
+      "lon": -0.034193
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1031,
+    "Bus_Stop_Code": 55951,
+    "Naptan_Atco": "490001014A",
+    "Stop_Name": "BARNES STATION #",
+    "Location_Easting": 51.467402,
+    "Location_Northing": -0.241187,
+    "Heading": 38,
+    "Stop_Area": "M401",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.467402,
+      "lon": -0.241187
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10313,
+    "Bus_Stop_Code": 58587,
+    "Naptan_Atco": "490009306S",
+    "Stop_Name": "LONGFIELD AVENUE",
+    "Location_Easting": 51.584373,
+    "Location_Northing": -0.037449,
+    "Heading": 165,
+    "Stop_Area": "YH11",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.584373,
+      "lon": -0.037449
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10316,
+    "Bus_Stop_Code": 50920,
+    "Naptan_Atco": "490000024A",
+    "Stop_Name": "BLACKHORSE ROAD STATION <> #",
+    "Location_Easting": 51.586591,
+    "Location_Northing": -0.040442,
+    "Heading": 348,
+    "Stop_Area": "YH10",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.586591,
+      "lon": -0.040442
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10317,
+    "Bus_Stop_Code": 73411,
+    "Naptan_Atco": "490000024B",
+    "Stop_Name": "BLACKHORSE ROAD STATION <> #",
+    "Location_Easting": 51.586787,
+    "Location_Northing": -0.040347,
+    "Heading": 166,
+    "Stop_Area": "YH10",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.586787,
+      "lon": -0.040347
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10318,
+    "Bus_Stop_Code": 54906,
+    "Naptan_Atco": "490004103N",
+    "Stop_Name": "BLENHEIM ROAD",
+    "Location_Easting": 51.590274,
+    "Location_Northing": -0.040255,
+    "Heading": 351,
+    "Stop_Area": "YG03",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.590274,
+      "lon": -0.040255
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10319,
+    "Bus_Stop_Code": 48960,
+    "Naptan_Atco": "490006928S",
+    "Stop_Name": "FOREST ROAD",
+    "Location_Easting": 51.587667,
+    "Location_Northing": -0.040266,
+    "Heading": 205,
+    "Stop_Area": "YH09",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.587667,
+      "lon": -0.040266
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10320,
+    "Bus_Stop_Code": 55452,
+    "Naptan_Atco": "490006928N",
+    "Stop_Name": "FOREST ROAD",
+    "Location_Easting": 51.588142,
+    "Location_Northing": -0.040202,
+    "Heading": 20,
+    "Stop_Area": "YH09",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.588142,
+      "lon": -0.040202
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10321,
+    "Bus_Stop_Code": 77849,
+    "Naptan_Atco": "490004103S",
+    "Stop_Name": "BLENHEIM ROAD",
+    "Location_Easting": 51.589409,
+    "Location_Northing": -0.039614,
+    "Heading": 165,
+    "Stop_Area": "YG04",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.589409,
+      "lon": -0.039614
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10324,
+    "Bus_Stop_Code": 55434,
+    "Naptan_Atco": "490012034N",
+    "Stop_Name": "WALTHAM FOREST COLLEGE",
+    "Location_Easting": 51.593626,
+    "Location_Northing": -0.040111,
+    "Heading": 9,
+    "Stop_Area": "YG02",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.593626,
+      "lon": -0.040111
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10325,
+    "Bus_Stop_Code": 52834,
+    "Naptan_Atco": "490011183S",
+    "Stop_Name": "PRIESTLEY WAY",
+    "Location_Easting": 51.591606,
+    "Location_Northing": -0.039779,
+    "Heading": 190,
+    "Stop_Area": "YG03",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.591606,
+      "lon": -0.039779
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10327,
+    "Bus_Stop_Code": 77138,
+    "Naptan_Atco": "490012034S",
+    "Stop_Name": "WALTHAM FOREST COLLEGE",
+    "Location_Easting": 51.593694,
+    "Location_Northing": -0.039877,
+    "Heading": 183,
+    "Stop_Area": "YG02",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.593694,
+      "lon": -0.039877
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10328,
+    "Bus_Stop_Code": 49402,
+    "Naptan_Atco": "490005353N",
+    "Stop_Name": "CLARENCE ROAD",
+    "Location_Easting": 51.595252,
+    "Location_Northing": -0.041095,
+    "Heading": 347,
+    "Stop_Area": "YG01",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.595252,
+      "lon": -0.041095
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10330,
+    "Bus_Stop_Code": 75429,
+    "Naptan_Atco": "490009019E",
+    "Stop_Name": "LAWRENCE AVENUE",
+    "Location_Easting": 51.598825,
+    "Location_Northing": -0.039093,
+    "Heading": 89,
+    "Stop_Area": "Y510",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.598825,
+      "lon": -0.039093
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10331,
+    "Bus_Stop_Code": 76183,
+    "Naptan_Atco": "490014940S",
+    "Stop_Name": "WORCESTER ROAD",
+    "Location_Easting": 51.596639,
+    "Location_Northing": -0.041237,
+    "Heading": 165,
+    "Stop_Area": "Y511",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.596639,
+      "lon": -0.041237
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10333,
+    "Bus_Stop_Code": 53754,
+    "Naptan_Atco": "490009019W",
+    "Stop_Name": "LAWRENCE AVENUE",
+    "Location_Easting": 51.598733,
+    "Location_Northing": -0.038461,
+    "Heading": 269,
+    "Stop_Area": "Y510",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.598733,
+      "lon": -0.038461
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10334,
+    "Bus_Stop_Code": 56904,
+    "Naptan_Atco": "490008134E",
+    "Stop_Name": "HIGHAM HILL ROAD",
+    "Location_Easting": 51.599023,
+    "Location_Northing": -0.036398,
+    "Heading": 79,
+    "Stop_Area": "Y509",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.599023,
+      "lon": -0.036398
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10337,
+    "Bus_Stop_Code": 56118,
+    "Naptan_Atco": "490008134W",
+    "Stop_Name": "HIGHAM HILL ROAD",
+    "Location_Easting": 51.598903,
+    "Location_Northing": -0.036259,
+    "Heading": 259,
+    "Stop_Area": "Y509",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.598903,
+      "lon": -0.036259
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10338,
+    "Bus_Stop_Code": 48643,
+    "Naptan_Atco": "490007597E",
+    "Stop_Name": "GUILDSWAY",
+    "Location_Easting": 51.599698,
+    "Location_Northing": -0.028919,
+    "Heading": 87,
+    "Stop_Area": "Y507",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.599698,
+      "lon": -0.028919
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10340,
+    "Bus_Stop_Code": 74874,
+    "Naptan_Atco": "490010345E",
+    "Stop_Name": "NORTH COUNTESS ROAD",
+    "Location_Easting": 51.599656,
+    "Location_Northing": -0.025917,
+    "Heading": 88,
+    "Stop_Area": "Y506",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.599656,
+      "lon": -0.025917
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10341,
+    "Bus_Stop_Code": 76593,
+    "Naptan_Atco": "490007597W",
+    "Stop_Name": "GUILDSWAY",
+    "Location_Easting": 51.599606,
+    "Location_Northing": -0.02937,
+    "Heading": 266,
+    "Stop_Area": "Y507",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.599606,
+      "lon": -0.02937
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10342,
+    "Bus_Stop_Code": 75441,
+    "Naptan_Atco": "490009759E",
+    "Stop_Name": "WALTHAMSTOW ACADEMY",
+    "Location_Easting": 51.599996,
+    "Location_Northing": -0.023159,
+    "Heading": 67,
+    "Stop_Area": "Y505",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.599996,
+      "lon": -0.023159
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10343,
+    "Bus_Stop_Code": 75778,
+    "Naptan_Atco": "490010345W",
+    "Stop_Name": "NORTH COUNTESS ROAD",
+    "Location_Easting": 51.599522,
+    "Location_Northing": -0.0265,
+    "Heading": 265,
+    "Stop_Area": "Y506",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.599522,
+      "lon": -0.0265
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10345,
+    "Bus_Stop_Code": 57148,
+    "Naptan_Atco": "490009759W",
+    "Stop_Name": "WALTHAMSTOW ACADEMY",
+    "Location_Easting": 51.599894,
+    "Location_Northing": -0.022932,
+    "Heading": 246,
+    "Stop_Area": "Y505",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.599894,
+      "lon": -0.022932
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10347,
+    "Bus_Stop_Code": 49767,
+    "Naptan_Atco": "490004905W",
+    "Stop_Name": "CECIL ROAD",
+    "Location_Easting": 51.600325,
+    "Location_Northing": -0.020805,
+    "Heading": 259,
+    "Stop_Area": "Y504",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.600325,
+      "lon": -0.020805
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10351,
+    "Bus_Stop_Code": 74998,
+    "Naptan_Atco": 3700077,
+    "Stop_Name": "KAYWOOD CLOSE",
+    "Location_Easting": 51.502675,
+    "Location_Northing": -0.568122,
+    "Heading": 131,
+    "Stop_Area": "6Z14",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.502675,
+      "lon": -0.568122
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10359,
+    "Bus_Stop_Code": 55458,
+    "Naptan_Atco": "490006616E",
+    "Stop_Name": "ERITH FIRE STATION",
+    "Location_Easting": 51.485068,
+    "Location_Northing": 0.155584,
+    "Heading": 63,
+    "Stop_Area": "E513",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.485068,
+      "lon": 0.155584
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10360,
+    "Bus_Stop_Code": 56127,
+    "Naptan_Atco": "490006616W",
+    "Stop_Name": "ERITH FIRE STATION",
+    "Location_Easting": 51.485094,
+    "Location_Northing": 0.156176,
+    "Heading": 246,
+    "Stop_Area": "E513",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.485094,
+      "lon": 0.156176
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10362,
+    "Bus_Stop_Code": 56616,
+    "Naptan_Atco": "490003959S",
+    "Stop_Name": "BEULAH SPA",
+    "Location_Easting": 51.414242,
+    "Location_Northing": -0.092503,
+    "Heading": 152,
+    "Stop_Area": "HR06",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.414242,
+      "lon": -0.092503
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10363,
+    "Bus_Stop_Code": 58665,
+    "Naptan_Atco": "490003959N",
+    "Stop_Name": "BEULAH SPA",
+    "Location_Easting": 51.414528,
+    "Location_Northing": -0.092908,
+    "Heading": 332,
+    "Stop_Area": "HR06",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.414528,
+      "lon": -0.092908
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10364,
+    "Bus_Stop_Code": 53488,
+    "Naptan_Atco": "490003497E",
+    "Stop_Name": "AVENUE ROAD",
+    "Location_Easting": 51.534667,
+    "Location_Northing": -0.164354,
+    "Heading": 48,
+    "Stop_Area": "8G04",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.534667,
+      "lon": -0.164354
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10365,
+    "Bus_Stop_Code": 73092,
+    "Naptan_Atco": "490003497W",
+    "Stop_Name": "AVENUE ROAD",
+    "Location_Easting": 51.535166,
+    "Location_Northing": -0.162964,
+    "Heading": 235,
+    "Stop_Area": "8G04",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.535166,
+      "lon": -0.162964
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1037,
+    "Bus_Stop_Code": 53342,
+    "Naptan_Atco": "490012521E",
+    "Stop_Name": "STAMFORD BROOK BUS GARAGE",
+    "Location_Easting": 51.493152,
+    "Location_Northing": -0.249286,
+    "Heading": 77,
+    "Stop_Area": "NG02",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.493152,
+      "lon": -0.249286
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1038,
+    "Bus_Stop_Code": 71601,
+    "Naptan_Atco": "490012521PP",
+    "Stop_Name": "STAMFORD BROOK BUS GARAGE",
+    "Location_Easting": 51.492985,
+    "Location_Northing": -0.249523,
+    "Heading": 257,
+    "Stop_Area": "NG02",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.492985,
+      "lon": -0.249523
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1039,
+    "Bus_Stop_Code": 51237,
+    "Naptan_Atco": "490005210SS",
+    "Stop_Name": "CHISWICK POLICE STATION",
+    "Location_Easting": 51.49241,
+    "Location_Northing": -0.259845,
+    "Heading": 266,
+    "Stop_Area": "NG04",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.49241,
+      "lon": -0.259845
+    }
+  },
+  {
+    "Stop_Code_LBSL": 104,
+    "Bus_Stop_Code": 59457,
+    "Naptan_Atco": "490001108W",
+    "Stop_Name": "FENCHURCH STREET STATION #",
+    "Location_Easting": 51.512104,
+    "Location_Northing": -0.080045,
+    "Heading": 243,
+    "Stop_Area": 1007,
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.512104,
+      "lon": -0.080045
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1040,
+    "Bus_Stop_Code": 76767,
+    "Naptan_Atco": "490005423FF",
+    "Stop_Name": "CLIFTON GARDENS",
+    "Location_Easting": 51.492501,
+    "Location_Northing": -0.261743,
+    "Heading": 90,
+    "Stop_Area": "NG05",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.492501,
+      "lon": -0.261743
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1041,
+    "Bus_Stop_Code": 77336,
+    "Naptan_Atco": "490012434HH",
+    "Stop_Name": "ST ANN'S ROAD",
+    "Location_Easting": 51.581738,
+    "Location_Northing": -0.099714,
+    "Heading": 351,
+    "Stop_Area": "9A13",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.581738,
+      "lon": -0.099714
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1042,
+    "Bus_Stop_Code": 52990,
+    "Naptan_Atco": "490012434HK",
+    "Stop_Name": "ST ANN'S ROAD",
+    "Location_Easting": 51.58298,
+    "Location_Northing": -0.099764,
+    "Heading": 172,
+    "Stop_Area": "9A13",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.58298,
+      "lon": -0.099764
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1043,
+    "Bus_Stop_Code": 58527,
+    "Naptan_Atco": "490013739M",
+    "Stop_Name": "PHILIP LANE",
+    "Location_Easting": 51.587986,
+    "Location_Northing": -0.070929,
+    "Heading": 13,
+    "Stop_Area": "9D01",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.587986,
+      "lon": -0.070929
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10439,
+    "Bus_Stop_Code": 55159,
+    "Naptan_Atco": "490007093W1",
+    "Stop_Name": "WOOLWICH ROAD / GALLIONS ROAD",
+    "Location_Easting": 51.487418,
+    "Location_Northing": 0.027928,
+    "Heading": 261,
+    "Stop_Area": "GP05",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.487418,
+      "lon": 0.027928
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1045,
+    "Bus_Stop_Code": 52812,
+    "Naptan_Atco": "490011849RB",
+    "Stop_Name": "SADLER'S WELLS THEATRE",
+    "Location_Easting": 51.529118,
+    "Location_Northing": -0.106044,
+    "Heading": 211,
+    "Stop_Area": "C110",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.529118,
+      "lon": -0.106044
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10458,
+    "Bus_Stop_Code": 52726,
+    "Naptan_Atco": "490008264S",
+    "Stop_Name": "ST MARY OF ETON CHURCH",
+    "Location_Easting": 51.545294,
+    "Location_Northing": -0.030102,
+    "Heading": 176,
+    "Stop_Area": "DE01",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.545294,
+      "lon": -0.030102
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10459,
+    "Bus_Stop_Code": 76775,
+    "Naptan_Atco": "490008264N",
+    "Stop_Name": "ST MARY OF ETON CHURCH",
+    "Location_Easting": 51.545765,
+    "Location_Northing": -0.030255,
+    "Heading": 355,
+    "Stop_Area": "DE01",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.545765,
+      "lon": -0.030255
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1046,
+    "Bus_Stop_Code": 54519,
+    "Naptan_Atco": "490011849RA",
+    "Stop_Name": "SADLER'S WELLS THEATRE",
+    "Location_Easting": 51.5292,
+    "Location_Northing": -0.10617,
+    "Heading": 31,
+    "Stop_Area": "C110",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.5292,
+      "lon": -0.10617
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10460,
+    "Bus_Stop_Code": 72310,
+    "Naptan_Atco": "490008109T",
+    "Stop_Name": "HESA ROAD",
+    "Location_Easting": 51.516423,
+    "Location_Northing": -0.40888,
+    "Heading": 25,
+    "Stop_Area": "P102",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.516423,
+      "lon": -0.40888
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10462,
+    "Bus_Stop_Code": 77778,
+    "Naptan_Atco": "490013979Q",
+    "Stop_Name": "THE GRAPES",
+    "Location_Easting": 51.51825,
+    "Location_Northing": -0.406337,
+    "Heading": 208,
+    "Stop_Area": "P103",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.51825,
+      "lon": -0.406337
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10464,
+    "Bus_Stop_Code": 71195,
+    "Naptan_Atco": "490006951N",
+    "Stop_Name": "FORTUNE GREEN",
+    "Location_Easting": 51.554758,
+    "Location_Northing": -0.196954,
+    "Heading": 356,
+    "Stop_Area": "8B13",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.554758,
+      "lon": -0.196954
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10465,
+    "Bus_Stop_Code": 71434,
+    "Naptan_Atco": "490014468S",
+    "Stop_Name": "WEST HAMPSTEAD POLICE STATION",
+    "Location_Easting": 51.553572,
+    "Location_Northing": -0.19527,
+    "Heading": 129,
+    "Stop_Area": "8B12",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.553572,
+      "lon": -0.19527
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10468,
+    "Bus_Stop_Code": 73028,
+    "Naptan_Atco": "490015102C",
+    "Stop_Name": "LEA BRIDGE ROAD / BAKERS ARMS",
+    "Location_Easting": 51.576307,
+    "Location_Northing": -0.011789,
+    "Heading": 32,
+    "Stop_Area": "YD02",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.576307,
+      "lon": -0.011789
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10469,
+    "Bus_Stop_Code": 77513,
+    "Naptan_Atco": "490015102D",
+    "Stop_Name": "LEA BRIDGE ROAD / BAKERS ARMS",
+    "Location_Easting": 51.575801,
+    "Location_Northing": -0.012216,
+    "Heading": 220,
+    "Stop_Area": "YD02",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.575801,
+      "lon": -0.012216
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1047,
+    "Bus_Stop_Code": 55837,
+    "Naptan_Atco": "490013485S1",
+    "Stop_Name": "THE OLD VIC",
+    "Location_Easting": 51.501338,
+    "Location_Northing": -0.108752,
+    "Heading": 143,
+    "Stop_Area": 4304,
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.501338,
+      "lon": -0.108752
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1048,
+    "Bus_Stop_Code": 50694,
+    "Naptan_Atco": "490013485N",
+    "Stop_Name": "THE OLD VIC",
+    "Location_Easting": 51.50129,
+    "Location_Northing": -0.109085,
+    "Heading": 323,
+    "Stop_Area": 4304,
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.50129,
+      "lon": -0.109085
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1049,
+    "Bus_Stop_Code": 58644,
+    "Naptan_Atco": "490000094B",
+    "Stop_Name": "GUNNERSBURY STATION <> #",
+    "Location_Easting": 51.492438,
+    "Location_Northing": -0.275776,
+    "Heading": 81,
+    "Stop_Area": "NF07",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.492438,
+      "lon": -0.275776
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1051,
+    "Bus_Stop_Code": 73188,
+    "Naptan_Atco": "490003269N",
+    "Stop_Name": "ALPHA CLOSE",
+    "Location_Easting": 51.527092,
+    "Location_Northing": -0.164154,
+    "Heading": 313,
+    "Stop_Area": "0T05",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.527092,
+      "lon": -0.164154
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1052,
+    "Bus_Stop_Code": 49244,
+    "Naptan_Atco": "490011716S",
+    "Stop_Name": "ROSSMORE ROAD",
+    "Location_Easting": 51.526168,
+    "Location_Northing": -0.161986,
+    "Heading": 126,
+    "Stop_Area": "0T04",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.526168,
+      "lon": -0.161986
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1054,
+    "Bus_Stop_Code": 54965,
+    "Naptan_Atco": "490006008W",
+    "Stop_Name": "DEAN STREET / CHINATOWN",
+    "Location_Easting": 51.51235,
+    "Location_Northing": -0.130937,
+    "Heading": 237,
+    "Stop_Area": "0C06",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.51235,
+      "lon": -0.130937
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1057,
+    "Bus_Stop_Code": 71271,
+    "Naptan_Atco": "490015239K",
+    "Stop_Name": "HOLBORN STATION <>",
+    "Location_Easting": 51.517647,
+    "Location_Northing": -0.11857,
+    "Heading": 252,
+    "Stop_Area": 8016,
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.517647,
+      "lon": -0.11857
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10580,
+    "Bus_Stop_Code": 48232,
+    "Naptan_Atco": "490010001S",
+    "Stop_Name": "MONTPELIER ROAD",
+    "Location_Easting": 51.521546,
+    "Location_Northing": -0.306605,
+    "Heading": 153,
+    "Stop_Area": "QS08",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.521546,
+      "lon": -0.306605
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1059,
+    "Bus_Stop_Code": 49218,
+    "Naptan_Atco": "490010149J",
+    "Stop_Name": "NAPIER PLACE",
+    "Location_Easting": 51.497085,
+    "Location_Northing": -0.206665,
+    "Heading": 315,
+    "Stop_Area": 7901,
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.497085,
+      "lon": -0.206665
+    }
+  },
+  {
+    "Stop_Code_LBSL": 106,
+    "Bus_Stop_Code": 76770,
+    "Naptan_Atco": "490012357W2",
+    "Stop_Name": "SOUTHWARK TOWN HALL",
+    "Location_Easting": 51.473697,
+    "Location_Northing": -0.08232,
+    "Heading": 269,
+    "Stop_Area": "3P06",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.473697,
+      "lon": -0.08232
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1061,
+    "Bus_Stop_Code": 47857,
+    "Naptan_Atco": "490010305E",
+    "Stop_Name": "NORLAND SQUARE",
+    "Location_Easting": 51.50611,
+    "Location_Northing": -0.20997,
+    "Heading": 69,
+    "Stop_Area": 7706,
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.50611,
+      "lon": -0.20997
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1062,
+    "Bus_Stop_Code": 51009,
+    "Naptan_Atco": "490000113G",
+    "Stop_Name": "HOLLAND PARK STATION <>",
+    "Location_Easting": 51.50696,
+    "Location_Northing": -0.206118,
+    "Heading": 244,
+    "Stop_Area": 7801,
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.50696,
+      "lon": -0.206118
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1063,
+    "Bus_Stop_Code": 74899,
+    "Naptan_Atco": "490006437HE",
+    "Stop_Name": "EDITH GROVE",
+    "Location_Easting": 51.483792,
+    "Location_Northing": -0.184891,
+    "Heading": 43,
+    "Stop_Area": "7F15",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.483792,
+      "lon": -0.184891
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1064,
+    "Bus_Stop_Code": 53729,
+    "Naptan_Atco": "490007055HK",
+    "Stop_Name": "FULHAM ROAD / CHELSEA & WESTMINSTER HOSP",
+    "Location_Easting": 51.484454,
+    "Location_Northing": -0.184663,
+    "Heading": 140,
+    "Stop_Area": "7F03",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.484454,
+      "lon": -0.184663
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1065,
+    "Bus_Stop_Code": 74282,
+    "Naptan_Atco": "490006437HB",
+    "Stop_Name": "EDITH GROVE",
+    "Location_Easting": 51.484376,
+    "Location_Northing": -0.183715,
+    "Heading": 228,
+    "Stop_Area": "7F15",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.484376,
+      "lon": -0.183715
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1067,
+    "Bus_Stop_Code": 74955,
+    "Naptan_Atco": "490003726E",
+    "Stop_Name": "FULHAM ROAD / BEAUFORT STREET",
+    "Location_Easting": 51.48756,
+    "Location_Northing": -0.178548,
+    "Heading": 42,
+    "Stop_Area": "7F17",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.48756,
+      "lon": -0.178548
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1069,
+    "Bus_Stop_Code": 48108,
+    "Naptan_Atco": "490006514N",
+    "Stop_Name": "OLD CHURCH STREET",
+    "Location_Easting": 51.489106,
+    "Location_Northing": -0.176152,
+    "Heading": 41,
+    "Stop_Area": "7C03",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.489106,
+      "lon": -0.176152
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10690,
+    "Bus_Stop_Code": 52589,
+    "Naptan_Atco": "490015411N",
+    "Stop_Name": "SPUR ROAD / ORPINGTON WAR MEMORIAL",
+    "Location_Easting": 51.373107,
+    "Location_Northing": 0.098579,
+    "Heading": 273,
+    "Stop_Area": "F707",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.373107,
+      "lon": 0.098579
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10694,
+    "Bus_Stop_Code": 73356,
+    "Naptan_Atco": "490011165S",
+    "Stop_Name": "PRATTS BOTTOM / SEVENOAKS ROAD",
+    "Location_Easting": 51.34405,
+    "Location_Northing": 0.111108,
+    "Heading": 186,
+    "Stop_Area": "F421",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.34405,
+      "lon": 0.111108
+    }
+  },
+  {
+    "Stop_Code_LBSL": 107,
+    "Bus_Stop_Code": 49574,
+    "Naptan_Atco": "490000119M",
+    "Stop_Name": "HYDE PARK CORNER STATION <>",
+    "Location_Easting": 51.502749,
+    "Location_Northing": -0.153274,
+    "Heading": 250,
+    "Stop_Area": "0J05",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.502749,
+      "lon": -0.153274
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1070,
+    "Bus_Stop_Code": 74835,
+    "Naptan_Atco": "490006514S",
+    "Stop_Name": "OLD CHURCH STREET",
+    "Location_Easting": 51.488697,
+    "Location_Northing": -0.176486,
+    "Heading": 221,
+    "Stop_Area": "7C03",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.488697,
+      "lon": -0.176486
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10705,
+    "Bus_Stop_Code": 52614,
+    "Naptan_Atco": "490015411L",
+    "Stop_Name": "SEVENOAKS ROAD / ORPINGTON WAR MEMORIAL",
+    "Location_Easting": 51.372411,
+    "Location_Northing": 0.097254,
+    "Heading": 11,
+    "Stop_Area": "F706",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.372411,
+      "lon": 0.097254
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1071,
+    "Bus_Stop_Code": 49984,
+    "Naptan_Atco": "490010603N",
+    "Stop_Name": "ONSLOW SQUARE",
+    "Location_Easting": 51.492274,
+    "Location_Northing": -0.172266,
+    "Heading": 322,
+    "Stop_Area": "7C05",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.492274,
+      "lon": -0.172266
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10715,
+    "Bus_Stop_Code": 75702,
+    "Naptan_Atco": "490014077E",
+    "Stop_Name": "VILLAGE GREEN ROAD",
+    "Location_Easting": 51.454192,
+    "Location_Northing": 0.186875,
+    "Heading": 74,
+    "Stop_Area": "EE11",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.454192,
+      "lon": 0.186875
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10716,
+    "Bus_Stop_Code": 57226,
+    "Naptan_Atco": "490013537W",
+    "Stop_Name": "THE RISE",
+    "Location_Easting": 51.453924,
+    "Location_Northing": 0.185797,
+    "Heading": 253,
+    "Stop_Area": "EE12",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.453924,
+      "lon": 0.185797
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10717,
+    "Bus_Stop_Code": 49819,
+    "Naptan_Atco": "490012543E",
+    "Stop_Name": "STANHAM PLACE",
+    "Location_Easting": 51.454636,
+    "Location_Northing": 0.191963,
+    "Heading": 84,
+    "Stop_Area": "EE10",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.454636,
+      "lon": 0.191963
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10719,
+    "Bus_Stop_Code": 75082,
+    "Naptan_Atco": "490013433S",
+    "Stop_Name": "THE JOLLY FARMERS OPEN SPACE",
+    "Location_Easting": 51.454754,
+    "Location_Northing": 0.193811,
+    "Heading": 244,
+    "Stop_Area": "EE09",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.454754,
+      "lon": 0.193811
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1072,
+    "Bus_Stop_Code": 52470,
+    "Naptan_Atco": "490010603S",
+    "Stop_Name": "ONSLOW SQUARE",
+    "Location_Easting": 51.492408,
+    "Location_Northing": -0.172203,
+    "Heading": 142,
+    "Stop_Area": "7C05",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.492408,
+      "lon": -0.172203
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10720,
+    "Bus_Stop_Code": 51040,
+    "Naptan_Atco": "490013433N",
+    "Stop_Name": "MILL PLACE",
+    "Location_Easting": 51.455718,
+    "Location_Northing": 0.195196,
+    "Heading": 27,
+    "Stop_Area": "EE09",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.455718,
+      "lon": 0.195196
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10721,
+    "Bus_Stop_Code": 49603,
+    "Naptan_Atco": "490010950W",
+    "Stop_Name": "PERRY STREET",
+    "Location_Easting": 51.46356,
+    "Location_Northing": 0.180729,
+    "Heading": 269,
+    "Stop_Area": "EE19",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.46356,
+      "lon": 0.180729
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10722,
+    "Bus_Stop_Code": 55185,
+    "Naptan_Atco": "490010950E",
+    "Stop_Name": "PERRY STREET",
+    "Location_Easting": 51.463632,
+    "Location_Northing": 0.181208,
+    "Heading": 89,
+    "Stop_Area": "EE19",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.463632,
+      "lon": 0.181208
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10723,
+    "Bus_Stop_Code": 52503,
+    "Naptan_Atco": "490006670W",
+    "Stop_Name": "EVERSLEY CROSS",
+    "Location_Easting": 51.463587,
+    "Location_Northing": 0.176872,
+    "Heading": 269,
+    "Stop_Area": "ED11",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.463587,
+      "lon": 0.176872
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10724,
+    "Bus_Stop_Code": 56047,
+    "Naptan_Atco": "490006670E",
+    "Stop_Name": "EVERSLEY CROSS",
+    "Location_Easting": 51.463669,
+    "Location_Northing": 0.176329,
+    "Heading": 89,
+    "Stop_Area": "ED11",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.463669,
+      "lon": 0.176329
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10725,
+    "Bus_Stop_Code": 77759,
+    "Naptan_Atco": "490009597W",
+    "Stop_Name": "NORTHALL ROAD / MANOR WAY",
+    "Location_Easting": 51.464137,
+    "Location_Northing": 0.164618,
+    "Heading": 274,
+    "Stop_Area": "ED08",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.464137,
+      "lon": 0.164618
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10726,
+    "Bus_Stop_Code": 77451,
+    "Naptan_Atco": "490009597E",
+    "Stop_Name": "PARKSIDE AVENUE / MANOR WAY",
+    "Location_Easting": 51.46379,
+    "Location_Northing": 0.168344,
+    "Heading": 90,
+    "Stop_Area": "ED09",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.46379,
+      "lon": 0.168344
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10729,
+    "Bus_Stop_Code": 75645,
+    "Naptan_Atco": "490010356W",
+    "Stop_Name": "BRIDGE ROAD / NORTHEND ROAD",
+    "Location_Easting": 51.467039,
+    "Location_Northing": 0.182738,
+    "Heading": 250,
+    "Stop_Area": "E105",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.467039,
+      "lon": 0.182738
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1073,
+    "Bus_Stop_Code": 76752,
+    "Naptan_Atco": "490010928E",
+    "Stop_Name": "PENTON STREET",
+    "Location_Easting": 51.531637,
+    "Location_Northing": -0.11175,
+    "Heading": 81,
+    "Stop_Area": "C007",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.531637,
+      "lon": -0.11175
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1074,
+    "Bus_Stop_Code": 49357,
+    "Naptan_Atco": "490010928W",
+    "Stop_Name": "PENTON STREET / CHAPEL MARKET",
+    "Location_Easting": 51.531643,
+    "Location_Northing": -0.110438,
+    "Heading": 258,
+    "Stop_Area": "C007",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.531643,
+      "lon": -0.110438
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1075,
+    "Bus_Stop_Code": 56776,
+    "Naptan_Atco": "490007598N",
+    "Stop_Name": "GUILFORD STREET",
+    "Location_Easting": 51.523975,
+    "Location_Northing": -0.115599,
+    "Heading": 323,
+    "Stop_Area": 8801,
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.523975,
+      "lon": -0.115599
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1076,
+    "Bus_Stop_Code": 54383,
+    "Naptan_Atco": "490007598S",
+    "Stop_Name": "GUILFORD STREET",
+    "Location_Easting": 51.524676,
+    "Location_Northing": -0.116161,
+    "Heading": 143,
+    "Stop_Area": 8801,
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.524676,
+      "lon": -0.116161
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1077,
+    "Bus_Stop_Code": 71366,
+    "Naptan_Atco": "490000123B",
+    "Stop_Name": "KENTISH TOWN STATION <> #",
+    "Location_Easting": 51.551366,
+    "Location_Northing": -0.140978,
+    "Heading": 335,
+    "Stop_Area": "8K08",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.551366,
+      "lon": -0.140978
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1078,
+    "Bus_Stop_Code": 75430,
+    "Naptan_Atco": "490000123A",
+    "Stop_Name": "KENTISH TOWN STATION <> #",
+    "Location_Easting": 51.550211,
+    "Location_Northing": -0.140708,
+    "Heading": 185,
+    "Stop_Area": "8K08",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.550211,
+      "lon": -0.140708
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10794,
+    "Bus_Stop_Code": 73705,
+    "Naptan_Atco": "490015290S",
+    "Stop_Name": "COOMBE ROAD",
+    "Location_Easting": 51.368036,
+    "Location_Northing": -0.096248,
+    "Heading": 171,
+    "Stop_Area": "HC28",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.368036,
+      "lon": -0.096248
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10795,
+    "Bus_Stop_Code": 56718,
+    "Naptan_Atco": "490015290N",
+    "Stop_Name": "COOMBE ROAD",
+    "Location_Easting": 51.367823,
+    "Location_Northing": -0.096444,
+    "Heading": 354,
+    "Stop_Area": "HC28",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.367823,
+      "lon": -0.096444
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10797,
+    "Bus_Stop_Code": 49354,
+    "Naptan_Atco": "490005575N",
+    "Stop_Name": "BIRDHURST GARDENS",
+    "Location_Easting": 51.36567,
+    "Location_Northing": -0.090126,
+    "Heading": 31,
+    "Stop_Area": "HE09",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.36567,
+      "lon": -0.090126
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10798,
+    "Bus_Stop_Code": 72199,
+    "Naptan_Atco": "490004026B",
+    "Stop_Name": "BIRDHURST ROAD / SOUTH CROYDON STATION #",
+    "Location_Easting": 51.361845,
+    "Location_Northing": -0.090501,
+    "Heading": 114,
+    "Stop_Area": "HE11",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.361845,
+      "lon": -0.090501
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10799,
+    "Bus_Stop_Code": 55814,
+    "Naptan_Atco": "490001258A",
+    "Stop_Name": "BIRDHURST ROAD / SOUTH CROYDON STATION #",
+    "Location_Easting": 51.362127,
+    "Location_Northing": -0.091796,
+    "Heading": 290,
+    "Stop_Area": "HE11",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.362127,
+      "lon": -0.091796
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1080,
+    "Bus_Stop_Code": 47253,
+    "Naptan_Atco": "490015396NK",
+    "Stop_Name": "NEWINGTON GREEN",
+    "Location_Easting": 51.551692,
+    "Location_Northing": -0.08572,
+    "Heading": 14,
+    "Stop_Area": "CA02",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.551692,
+      "lon": -0.08572
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10804,
+    "Bus_Stop_Code": 54305,
+    "Naptan_Atco": "490004802S2",
+    "Stop_Name": "CARLTON ROAD",
+    "Location_Easting": 51.355315,
+    "Location_Northing": -0.092094,
+    "Heading": 176,
+    "Stop_Area": "HE26",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.355315,
+      "lon": -0.092094
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10806,
+    "Bus_Stop_Code": 51493,
+    "Naptan_Atco": "490004802N",
+    "Stop_Name": "TWIN BRIDGES BUSINESS PARK",
+    "Location_Easting": 51.356001,
+    "Location_Northing": -0.092238,
+    "Heading": 303,
+    "Stop_Area": "HE25",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.356001,
+      "lon": -0.092238
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10807,
+    "Bus_Stop_Code": 74493,
+    "Naptan_Atco": "490004802S1",
+    "Stop_Name": "CARLTON ROAD",
+    "Location_Easting": 51.355668,
+    "Location_Northing": -0.091145,
+    "Heading": 119,
+    "Stop_Area": "HE25",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.355668,
+      "lon": -0.091145
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10808,
+    "Bus_Stop_Code": 77760,
+    "Naptan_Atco": "490005794E",
+    "Stop_Name": "CROHAM ROAD",
+    "Location_Easting": 51.361645,
+    "Location_Northing": -0.09591,
+    "Heading": 344,
+    "Stop_Area": "HD10",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.361645,
+      "lon": -0.09591
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1081,
+    "Bus_Stop_Code": 77826,
+    "Naptan_Atco": "490010224S3",
+    "Stop_Name": "ALBION ROAD",
+    "Location_Easting": 51.552489,
+    "Location_Northing": -0.086076,
+    "Heading": 126,
+    "Stop_Area": "CA02",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.552489,
+      "lon": -0.086076
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10811,
+    "Bus_Stop_Code": 59436,
+    "Naptan_Atco": 4.9e24,
+    "Stop_Name": "ELECTRIC HOUSE",
+    "Location_Easting": 51.374709,
+    "Location_Northing": -0.097437,
+    "Heading": 333,
+    "Stop_Area": "HC12",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.374709,
+      "lon": -0.097437
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10813,
+    "Bus_Stop_Code": 48143,
+    "Naptan_Atco": 4.9e23,
+    "Stop_Name": "WHITGIFT CENTRE",
+    "Location_Easting": 51.376093,
+    "Location_Northing": -0.098458,
+    "Heading": 335,
+    "Stop_Area": "HC11",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.376093,
+      "lon": -0.098458
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10814,
+    "Bus_Stop_Code": 75479,
+    "Naptan_Atco": 49000000000000000000,
+    "Stop_Name": "WHITGIFT CENTRE",
+    "Location_Easting": 51.376967,
+    "Location_Northing": -0.098594,
+    "Heading": 155,
+    "Stop_Area": "HC11",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.376967,
+      "lon": -0.098594
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10816,
+    "Bus_Stop_Code": 76006,
+    "Naptan_Atco": "490011275C",
+    "Stop_Name": "PURLEY WAY / WADDON STATION #",
+    "Location_Easting": 51.367618,
+    "Location_Northing": -0.119941,
+    "Heading": 263,
+    "Stop_Area": "H901",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.367618,
+      "lon": -0.119941
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10817,
+    "Bus_Stop_Code": 52173,
+    "Naptan_Atco": "490011275D",
+    "Stop_Name": "PURLEY WAY / WADDON STATION #",
+    "Location_Easting": 51.367721,
+    "Location_Northing": -0.120181,
+    "Heading": 83,
+    "Stop_Area": "H901",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.367721,
+      "lon": -0.120181
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1082,
+    "Bus_Stop_Code": 49943,
+    "Naptan_Atco": "490019676NB",
+    "Stop_Name": "GREEN LANES",
+    "Location_Easting": 51.552483,
+    "Location_Northing": -0.085182,
+    "Heading": 193,
+    "Stop_Area": "CA11",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.552483,
+      "lon": -0.085182
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10820,
+    "Bus_Stop_Code": 53062,
+    "Naptan_Atco": "490013603C",
+    "Stop_Name": "PURLEY OAKS STATION #",
+    "Location_Easting": 51.349809,
+    "Location_Northing": -0.100235,
+    "Heading": 207,
+    "Stop_Area": "H403",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.349809,
+      "lon": -0.100235
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10821,
+    "Bus_Stop_Code": 72161,
+    "Naptan_Atco": "490013603N",
+    "Stop_Name": "PURLEY OAKS STATION #",
+    "Location_Easting": 51.348712,
+    "Location_Northing": -0.101358,
+    "Heading": 27,
+    "Stop_Area": "H403",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.348712,
+      "lon": -0.101358
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10824,
+    "Bus_Stop_Code": 75325,
+    "Naptan_Atco": "490011259G",
+    "Stop_Name": "PURLEY / DOWNLANDS PRECINCT",
+    "Location_Easting": 51.339285,
+    "Location_Northing": -0.11566,
+    "Heading": 227,
+    "Stop_Area": "H511",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.339285,
+      "lon": -0.11566
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10825,
+    "Bus_Stop_Code": 56739,
+    "Naptan_Atco": "490005236N",
+    "Stop_Name": "CHRISTCHURCH ROAD / PURLEY HOSPITAL",
+    "Location_Easting": 51.340669,
+    "Location_Northing": -0.113363,
+    "Heading": 48,
+    "Stop_Area": "H513",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.340669,
+      "lon": -0.113363
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10828,
+    "Bus_Stop_Code": 49076,
+    "Naptan_Atco": "490005574V",
+    "Stop_Name": "COOMBE ROAD",
+    "Location_Easting": 51.366976,
+    "Location_Northing": -0.099123,
+    "Heading": 3,
+    "Stop_Area": "HC20",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.366976,
+      "lon": -0.099123
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10829,
+    "Bus_Stop_Code": 50432,
+    "Naptan_Atco": "490005574S",
+    "Stop_Name": "COOMBE ROAD",
+    "Location_Easting": 51.368209,
+    "Location_Northing": -0.099201,
+    "Heading": 164,
+    "Stop_Area": "HC21",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.368209,
+      "lon": -0.099201
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1083,
+    "Bus_Stop_Code": 58305,
+    "Naptan_Atco": "490009224Z",
+    "Stop_Name": "LIVERPOOL ROAD",
+    "Location_Easting": 51.551208,
+    "Location_Northing": -0.110276,
+    "Heading": 137,
+    "Stop_Area": "C702",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.551208,
+      "lon": -0.110276
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10833,
+    "Bus_Stop_Code": 71688,
+    "Naptan_Atco": "490010864N",
+    "Stop_Name": "PASTEUR GARDENS",
+    "Location_Easting": 51.612381,
+    "Location_Northing": -0.086779,
+    "Heading": 346,
+    "Stop_Area": "U502",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.612381,
+      "lon": -0.086779
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10834,
+    "Bus_Stop_Code": 57879,
+    "Naptan_Atco": "490010864S",
+    "Stop_Name": "PASTEUR GARDENS",
+    "Location_Easting": 51.612392,
+    "Location_Northing": -0.08636,
+    "Heading": 167,
+    "Stop_Area": "U502",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.612392,
+      "lon": -0.08636
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10835,
+    "Bus_Stop_Code": 48321,
+    "Naptan_Atco": "490006564N",
+    "Stop_Name": "EMPIRE PARADE",
+    "Location_Easting": 51.609524,
+    "Location_Northing": -0.08583,
+    "Heading": 353,
+    "Stop_Area": "U501",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.609524,
+      "lon": -0.08583
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10836,
+    "Bus_Stop_Code": 49187,
+    "Naptan_Atco": "490006564S",
+    "Stop_Name": "EMPIRE PARADE",
+    "Location_Easting": 51.609104,
+    "Location_Northing": -0.085415,
+    "Heading": 177,
+    "Stop_Area": "U501",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.609104,
+      "lon": -0.085415
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10839,
+    "Bus_Stop_Code": 76029,
+    "Naptan_Atco": "490010323H",
+    "Stop_Name": "CHURCH HILL ROAD",
+    "Location_Easting": 51.370373,
+    "Location_Northing": -0.227438,
+    "Heading": 323,
+    "Stop_Area": "JC08",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.370373,
+      "lon": -0.227438
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1084,
+    "Bus_Stop_Code": 49908,
+    "Naptan_Atco": "490009224Y",
+    "Stop_Name": "LIVERPOOL ROAD",
+    "Location_Easting": 51.550726,
+    "Location_Northing": -0.109921,
+    "Heading": 319,
+    "Stop_Area": "C702",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.550726,
+      "lon": -0.109921
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10840,
+    "Bus_Stop_Code": 49495,
+    "Naptan_Atco": "490010323J",
+    "Stop_Name": "CHURCH HILL ROAD",
+    "Location_Easting": 51.369894,
+    "Location_Northing": -0.226724,
+    "Heading": 142,
+    "Stop_Area": "JC08",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.369894,
+      "lon": -0.226724
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10852,
+    "Bus_Stop_Code": 47321,
+    "Naptan_Atco": "490010753W",
+    "Stop_Name": "PARK AVENUE",
+    "Location_Easting": 51.600748,
+    "Location_Northing": -0.116436,
+    "Heading": 297,
+    "Stop_Area": 9712,
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.600748,
+      "lon": -0.116436
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10856,
+    "Bus_Stop_Code": 75436,
+    "Naptan_Atco": "490003236W",
+    "Stop_Name": "ALLIANCE ROAD",
+    "Location_Easting": 51.526396,
+    "Location_Northing": -0.27719,
+    "Heading": 276,
+    "Stop_Area": "Q403",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.526396,
+      "lon": -0.27719
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10860,
+    "Bus_Stop_Code": 76955,
+    "Naptan_Atco": "490012359S",
+    "Stop_Name": "SOUTHWOOD AVENUE",
+    "Location_Easting": 51.575579,
+    "Location_Northing": -0.142978,
+    "Heading": 147,
+    "Stop_Area": 9109,
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.575579,
+      "lon": -0.142978
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10864,
+    "Bus_Stop_Code": 48609,
+    "Naptan_Atco": "490007797N",
+    "Stop_Name": "HARINGEY CIVIC CENTRE",
+    "Location_Easting": 51.599967,
+    "Location_Northing": -0.111501,
+    "Heading": 346,
+    "Stop_Area": 9705,
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.599967,
+      "lon": -0.111501
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10866,
+    "Bus_Stop_Code": 47410,
+    "Naptan_Atco": "490007797S",
+    "Stop_Name": "HARINGEY CIVIC CENTRE",
+    "Location_Easting": 51.599955,
+    "Location_Northing": -0.111271,
+    "Heading": 166,
+    "Stop_Area": 9705,
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.599955,
+      "lon": -0.111271
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10868,
+    "Bus_Stop_Code": 74928,
+    "Naptan_Atco": "490004746S",
+    "Stop_Name": "CANNING CRESCENT",
+    "Location_Easting": 51.601792,
+    "Location_Northing": -0.112032,
+    "Heading": 162,
+    "Stop_Area": 9706,
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.601792,
+      "lon": -0.112032
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1087,
+    "Bus_Stop_Code": 71108,
+    "Naptan_Atco": "490000052SB",
+    "Stop_Name": "CLAPHAM SOUTH STATION <>",
+    "Location_Easting": 51.453007,
+    "Location_Northing": -0.148431,
+    "Heading": 85,
+    "Stop_Area": 5912,
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.453007,
+      "lon": -0.148431
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10871,
+    "Bus_Stop_Code": 50921,
+    "Naptan_Atco": "490003925S",
+    "Stop_Name": "BERKSHIRE GARDENS",
+    "Location_Easting": 51.608418,
+    "Location_Northing": -0.11027,
+    "Heading": 193,
+    "Stop_Area": "U601",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.608418,
+      "lon": -0.11027
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10872,
+    "Bus_Stop_Code": 57424,
+    "Naptan_Atco": "490003875N",
+    "Stop_Name": "BERKSHIRE GARDENS",
+    "Location_Easting": 51.609163,
+    "Location_Northing": -0.110196,
+    "Heading": 9,
+    "Stop_Area": "U601",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.609163,
+      "lon": -0.110196
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10875,
+    "Bus_Stop_Code": 48450,
+    "Naptan_Atco": "490010333W",
+    "Stop_Name": "TOTTENHALL ROAD",
+    "Location_Easting": 51.611265,
+    "Location_Northing": -0.109444,
+    "Heading": 182,
+    "Stop_Area": "U602",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.611265,
+      "lon": -0.109444
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10878,
+    "Bus_Stop_Code": 71522,
+    "Naptan_Atco": "490004486J",
+    "Stop_Name": "BROOMFIELD LANE",
+    "Location_Easting": 51.614993,
+    "Location_Northing": -0.10978,
+    "Heading": 2,
+    "Stop_Area": "U604",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.614993,
+      "lon": -0.10978
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10879,
+    "Bus_Stop_Code": 51198,
+    "Naptan_Atco": "490004486K",
+    "Stop_Name": "BROOMFIELD LANE",
+    "Location_Easting": 51.61516,
+    "Location_Northing": -0.109556,
+    "Heading": 182,
+    "Stop_Area": "U604",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.61516,
+      "lon": -0.109556
+    }
+  },
+  {
+    "Stop_Code_LBSL": 1088,
+    "Bus_Stop_Code": 72201,
+    "Naptan_Atco": "490000052SA",
+    "Stop_Name": "CLAPHAM SOUTH STATION <>",
+    "Location_Easting": 51.452883,
+    "Location_Northing": -0.148566,
+    "Heading": 265,
+    "Stop_Area": 5912,
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.452883,
+      "lon": -0.148566
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10880,
+    "Bus_Stop_Code": 53256,
+    "Naptan_Atco": "490010736G",
+    "Stop_Name": "PALMERS GREEN / THE TRIANGLE",
+    "Location_Easting": 51.617045,
+    "Location_Northing": -0.109319,
+    "Heading": 6,
+    "Stop_Area": "U605",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.617045,
+      "lon": -0.109319
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10881,
+    "Bus_Stop_Code": 47221,
+    "Naptan_Atco": "490009248C",
+    "Stop_Name": "LODGE DRIVE",
+    "Location_Easting": 51.61895,
+    "Location_Northing": -0.107593,
+    "Heading": 26,
+    "Stop_Area": "U606",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.61895,
+      "lon": -0.107593
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10883,
+    "Bus_Stop_Code": 75172,
+    "Naptan_Atco": "490006974A",
+    "Stop_Name": "FOX LANE",
+    "Location_Easting": 51.620239,
+    "Location_Northing": -0.106644,
+    "Heading": 19,
+    "Stop_Area": "U607",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.620239,
+      "lon": -0.106644
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10885,
+    "Bus_Stop_Code": 71425,
+    "Naptan_Atco": "490006974Z",
+    "Stop_Name": "FOX LANE",
+    "Location_Easting": 51.621135,
+    "Location_Northing": -0.105913,
+    "Heading": 199,
+    "Stop_Area": "U607",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.621135,
+      "lon": -0.105913
+    }
+  },
+  {
+    "Stop_Code_LBSL": 10888,
+    "Bus_Stop_Code": 55929,
+    "Naptan_Atco": "490011855N",
+    "Stop_Name": "ST MONICA'S CHURCH",
+    "Location_Easting": 51.623911,
+    "Location_Northing": -0.102937,
+    "Heading": 62,
+    "Stop_Area": "U701",
+    "Virtual_Bus_Stop": 0,
+    "location": {
+      "lat": 51.623911,
+      "lon": -0.102937
+    }
+  }
+]
