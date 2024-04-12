@@ -6,12 +6,38 @@ import {
   TileLayer,
   useMapEvents,
 } from "react-leaflet";
-import { OramaClient } from "@oramacloud/client";
 import { useState } from "react";
 
 import { create, insertMultiple, search, Result } from "@orama/orama";
 import data from "./data.json";
 import { Document } from "./types";
+import { createCoordinatesFromBounds } from "./utils";
+
+const trainsAndSubway = [
+  "Thameslink",
+  "Bakerloo",
+  "Southeastern",
+  "Northern",
+  "Southern",
+  "Jubilee",
+  "Circle",
+  "District",
+  "Elizabeth line",
+  "Hammersmith & City",
+  "Greater Anglia",
+  "London Overground",
+  "Metropolitan",
+  "Central",
+  "c2c",
+  "Victoria",
+  "East Midlands Railway",
+  "First Hull Trains",
+  "London North Eastern Railway",
+  "Grand Central",
+  "Great Northern",
+  "Lumo",
+  "Piccadilly",
+];
 
 const db = await create({
   schema: {
@@ -19,18 +45,6 @@ const db = await create({
     location: "geopoint",
   },
 });
-
-const client = new OramaClient({
-  endpoint: "https://cloud.orama.run/v1/indexes/busstopslondon-g27ndc",
-  api_key: "9bxpdZvGe6m3bvKnLlyhjCwBm2BG2Daq",
-});
-
-const createCoordinatesFromBounds = (bounds: any) => [
-  { lon: bounds._northEast.lng, lat: bounds._northEast.lat },
-  { lon: bounds._northEast.lng, lat: bounds._southWest.lat },
-  { lon: bounds._southWest.lng, lat: bounds._southWest.lat },
-  { lon: bounds._southWest.lng, lat: bounds._northEast.lat },
-];
 
 const Inside = ({ lat, lon }: { lat: number; lon: number }) => {
   useMapEvents({
@@ -45,45 +59,35 @@ const Inside = ({ lat, lon }: { lat: number; lon: number }) => {
   });
 
   const [stops, setStops] = useState<Result<Document>[]>([]);
-
+  const [busStations, setBusStations] = useState({});
   const getStops = async (polygon) => {
     await insertMultiple(db, data as unknown as never[]);
-    const searchWhere = {
-      location: polygon
-        ? {
-            polygon,
-            inside: true,
-          }
-        : {
-            radius: {
-              coordinates: {
-                lat,
-                lon,
-              },
-              unit: "m",
-              value: 500,
-              inside: true,
-            },
-          },
-    };
-
     const stops = await search(db, {
       term: "",
       limit: 50,
-      where: searchWhere,
+      where: {
+        location: {
+          polygon,
+          inside: true,
+        },
+      },
     });
     // const stops = await client.search({
     //   term: "",
     //   limit: 50,
     //   where: searchWhere,
     // });
-    console.log(stops.hits);
-    fetch(
-      `https://api.tfl.gov.uk/StopPoint/Sms/${stops.hits[0].document.Bus_Stop_Code}`
-    )
-      .then((rsp) => rsp.json())
-      .then(console.log);
     setStops(stops.hits);
+  };
+
+  const getStationInfo = async (code: number) => {
+    const data = await fetch(
+      `https://api.tfl.gov.uk/StopPoint/Sms/${code}`
+    ).then((rsp) => rsp.json());
+    setBusStations((stations) => ({
+      ...stations,
+      [code]: data,
+    }));
   };
 
   return (
@@ -93,8 +97,44 @@ const Inside = ({ lat, lon }: { lat: number; lon: number }) => {
           <Marker
             key={stop.document.Bus_Stop_Code}
             position={[stop.document.location.lat, stop.document.location.lon]}
+            eventHandlers={{
+              click: (e) => getStationInfo(stop.document.Bus_Stop_Code),
+            }}
           >
-            <Popup>{stop.document.Stop_Name}</Popup>
+            <Popup>
+              {busStations[stop.document.Bus_Stop_Code] ? (
+                <>
+                  <h2 className="font-bold mb-4 text-lg">
+                    {busStations[stop.document.Bus_Stop_Code].commonName}
+                  </h2>
+                  <h3 className="mb-2">Lines:</h3>
+                  <ul className="flex gap-2 flex-wrap">
+                    {busStations[stop.document.Bus_Stop_Code].lines
+                      .filter((l) => !trainsAndSubway.includes(l.name))
+                      .map((line) => (
+                        <li
+                          className={[
+                            `text-white p-2 rounded-full w-12 text-center h-12 border-4 flex items-center font-bold justify-center`,
+                            line.name.includes("N")
+                              ? "border-[#A2BADD]"
+                              : "border-[#FF251B]",
+                          ].join(" ")}
+                        >
+                          <a
+                            href={`https://tfl.gov.uk/bus/route/${line.name}/`}
+                            target="_blank"
+                            className="text-white"
+                          >
+                            {line.name}
+                          </a>
+                        </li>
+                      ))}
+                  </ul>
+                </>
+              ) : (
+                "loading"
+              )}
+            </Popup>
           </Marker>
         ))}
       <Marker position={[lat, lon]}>
@@ -105,6 +145,7 @@ const Inside = ({ lat, lon }: { lat: number; lon: number }) => {
 };
 function App() {
   const state = useGeolocation();
+
   if (state.loading) {
     return (
       <div className="min-h-screen w-screen flex justify-center items-center bg-slate-950 text-white">
