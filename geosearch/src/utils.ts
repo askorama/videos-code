@@ -1,9 +1,4 @@
-import { OramaClient } from "@oramacloud/client";
-
-export const client = new OramaClient({
-  endpoint: "https://cloud.orama.run/v1/indexes/busstopslondon-g27ndc",
-  api_key: "9bxpdZvGe6m3bvKnLlyhjCwBm2BG2Daq",
-});
+import L from "leaflet";
 
 export const createCoordinatesFromBounds = (bounds: any) => [
   { lon: bounds._northEast.lng, lat: bounds._northEast.lat },
@@ -11,3 +6,39 @@ export const createCoordinatesFromBounds = (bounds: any) => [
   { lon: bounds._southWest.lng, lat: bounds._southWest.lat },
   { lon: bounds._southWest.lng, lat: bounds._northEast.lat },
 ];
+
+export const trainsAndSubway = [
+  "Thameslink",
+  "Bakerloo",
+  "Southeastern",
+  "Northern",
+  "Southern",
+  "Jubilee",
+  "Circle",
+  "District",
+  "Elizabeth line",
+  "Hammersmith & City",
+  "Greater Anglia",
+  "London Overground",
+  "Metropolitan",
+  "Central",
+  "c2c",
+  "Victoria",
+  "East Midlands Railway",
+  "First Hull Trains",
+  "London North Eastern Railway",
+  "Grand Central",
+  "Great Northern",
+  "Lumo",
+  "Piccadilly",
+];
+
+export const iconBus = new L.Icon({
+  iconUrl: "/bus-stop.svg",
+  iconSize: new L.Point(105, 75),
+});
+
+export const iconPerson = new L.Icon({
+  iconUrl: "/person.svg",
+  iconSize: new L.Point(105, 75),
+});

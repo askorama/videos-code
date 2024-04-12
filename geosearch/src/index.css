@@ -8,7 +8,8 @@ html {
   margin: 0;
 }
 
-body .leaflet-popup-content-wrapper {
+body .leaflet-popup-content-wrapper,
+body .leaflet-popup-tip {
   @apply bg-slate-900 text-white;
 }
 

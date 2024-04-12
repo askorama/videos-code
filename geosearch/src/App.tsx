@@ -1,4 +1,3 @@
-import { useGeolocation } from "@uidotdev/usehooks";
 import {
   MapContainer,
   Marker,
@@ -8,43 +7,22 @@ import {
 } from "react-leaflet";
 import { useState } from "react";
 
-import { create, insertMultiple, search, Result } from "@orama/orama";
-import data from "./data.json";
-import { Document } from "./types";
-import { createCoordinatesFromBounds } from "./utils";
+import { Document, TFLResult } from "./types";
+import {
+  createCoordinatesFromBounds,
+  iconBus,
+  iconPerson,
+  trainsAndSubway,
+} from "./utils";
+import { OramaClient } from "@oramacloud/client";
+import { Result } from "@orama/orama";
 
-const trainsAndSubway = [
-  "Thameslink",
-  "Bakerloo",
-  "Southeastern",
-  "Northern",
-  "Southern",
-  "Jubilee",
-  "Circle",
-  "District",
-  "Elizabeth line",
-  "Hammersmith & City",
-  "Greater Anglia",
-  "London Overground",
-  "Metropolitan",
-  "Central",
-  "c2c",
-  "Victoria",
-  "East Midlands Railway",
-  "First Hull Trains",
-  "London North Eastern Railway",
-  "Grand Central",
-  "Great Northern",
-  "Lumo",
-  "Piccadilly",
-];
-
-const db = await create({
-  schema: {
-    Stop_Name: "string",
-    location: "geopoint",
-  },
+export const client = new OramaClient({
+  endpoint: "https://cloud.orama.run/v1/indexes/busstopslondon-g27ndc",
+  api_key: "9bxpdZvGe6m3bvKnLlyhjCwBm2BG2Daq",
 });
+
+const LOCATION = [51.493, -0.098];
 
 const Inside = ({ lat, lon }: { lat: number; lon: number }) => {
   useMapEvents({
@@ -59,25 +37,22 @@ const Inside = ({ lat, lon }: { lat: number; lon: number }) => {
   });
 
   const [stops, setStops] = useState<Result<Document>[]>([]);
-  const [busStations, setBusStations] = useState({});
-  const getStops = async (polygon) => {
-    await insertMultiple(db, data as unknown as never[]);
-    const stops = await search(db, {
+  const [busStations, setBusStations] = useState<{ [name: string]: TFLResult }>(
+    {}
+  );
+  const getStops = async (polygon: {
+    coordinates: { lat: number; lon: number }[];
+  }) => {
+    const stops = await client.search({
       term: "",
       limit: 50,
       where: {
         location: {
           polygon,
-          inside: true,
         },
       },
     });
-    // const stops = await client.search({
-    //   term: "",
-    //   limit: 50,
-    //   where: searchWhere,
-    // });
-    setStops(stops.hits);
+    setStops(stops?.hits || []);
   };
 
   const getStationInfo = async (code: number) => {
@@ -95,10 +70,11 @@ const Inside = ({ lat, lon }: { lat: number; lon: number }) => {
       {stops.length &&
         stops.map((stop) => (
           <Marker
+            icon={iconBus}
             key={stop.document.Bus_Stop_Code}
             position={[stop.document.location.lat, stop.document.location.lon]}
             eventHandlers={{
-              click: (e) => getStationInfo(stop.document.Bus_Stop_Code),
+              click: () => getStationInfo(stop.document.Bus_Stop_Code),
             }}
           >
             <Popup>
@@ -137,52 +113,29 @@ const Inside = ({ lat, lon }: { lat: number; lon: number }) => {
             </Popup>
           </Marker>
         ))}
-      <Marker position={[lat, lon]}>
+      <Marker position={[lat, lon]} icon={iconPerson}>
         <Popup>You</Popup>
       </Marker>
     </>
   );
 };
 function App() {
-  const state = useGeolocation();
-
-  if (state.loading) {
-    return (
-      <div className="min-h-screen w-screen flex justify-center items-center bg-slate-950 text-white">
-        <p className="text-center">
-          loading... (you may need to enable permissions)
-        </p>
-      </div>
-    );
-  }
-
-  if (state.error) {
-    return (
-      <div className="min-h-screen w-screen flex justify-center items-center bg-slate-950 text-white">
-        <p className="text-center">
-          Enable permissions to access your location data
-        </p>
-      </div>
-    );
-  }
-
-  if (state.latitude && state.longitude) {
-    return (
-      <MapContainer
-        center={[state.latitude, state.longitude]}
-        zoom={20}
-        className="w-screen h-screen"
-      >
-        <TileLayer
-          attribution="&copy; <a href='https://stadiamaps.com/' target='_blank'>Stadia Maps</a> &copy; <a href='https://openmaptiles.org/' target='_blank'>OpenMapTiles</a> &copy; <a href='https://www.openstreetmap.org/copyright' target='_blank'>OpenStreetMap</a>"
-          url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
-        />
-        <Inside lat={state.latitude} lon={state.longitude} />
-      </MapContainer>
-    );
-  }
-
-  return null;
+  return (
+    <MapContainer
+      center={{
+        lat: LOCATION[0],
+        lng: LOCATION[1],
+      }}
+      zoom={20}
+      className="w-screen h-screen"
+    >
+      <TileLayer
+        attribution="<a href='https://www.openstreetmap.org/copyright' target='_blank'>OpenStreetMap</a>"
+        url="http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png"
+      />
+      <Inside lat={LOCATION[0]} lon={LOCATION[1]} />
+    </MapContainer>
+  );
 }
 
 export default App;
