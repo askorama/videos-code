@@ -11,6 +11,8 @@ function App() {
         lng: LOCATION[1],
       }}
       zoom={20}
+      minZoom={16}
+      zoomControl={false}
       className="w-screen h-screen"
     >
       <TileLayer

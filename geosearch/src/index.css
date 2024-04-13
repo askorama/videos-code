@@ -8,6 +8,15 @@ html {
   margin: 0;
 }
 
+body .leaflet-popup-content {
+  min-width: 220px;
+}
+
+body .leaflet-popup-content-wrapper {
+  max-height: 300px;
+  overflow: auto;
+}
+
 body .leaflet-popup-content-wrapper,
 body .leaflet-popup-tip {
   @apply bg-slate-900 text-white;

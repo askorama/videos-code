@@ -37,7 +37,7 @@ export const Markers = ({ lat, lon }: { lat: number; lon: number }) => {
   }) => {
     const stops = await client.search({
       term: "",
-      limit: 50,
+      limit: 150,
       where: {
         location: {
           polygon,

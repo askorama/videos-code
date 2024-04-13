@@ -35,10 +35,10 @@ export const trainsAndSubway = [
 
 export const iconBus = new L.Icon({
   iconUrl: "/bus-stop.svg",
-  iconSize: new L.Point(105, 75),
+  iconSize: new L.Point(70, 50),
 });
 
 export const iconPerson = new L.Icon({
   iconUrl: "/person.svg",
-  iconSize: new L.Point(105, 75),
+  iconSize: new L.Point(70, 50),
 });
