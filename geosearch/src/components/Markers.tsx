@@ -38,6 +38,7 @@ export const Markers = ({ lat, lon }: { lat: number; lon: number }) => {
     const stops = await client.search({
       term: "",
       limit: 150,
+      returning: ["location", "Bus_Stop_Code"],
       where: {
         location: {
           polygon,

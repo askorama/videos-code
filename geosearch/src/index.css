@@ -8,13 +8,16 @@ html {
   margin: 0;
 }
 
+body .leaflet-control-attribution a {
+  @apply !text-slate-950;
+}
+
 body .leaflet-popup-content {
   min-width: 220px;
 }
 
 body .leaflet-popup-content-wrapper {
-  max-height: 300px;
-  overflow: auto;
+  @apply max-h-[300] overflow-auto;
 }
 
 body .leaflet-popup-content-wrapper,

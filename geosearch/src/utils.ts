@@ -31,6 +31,8 @@ export const trainsAndSubway = [
   "Great Northern",
   "Lumo",
   "Piccadilly",
+  "South Western Railway",
+  "Waterloo & City",
 ];
 
 export const iconBus = new L.Icon({
