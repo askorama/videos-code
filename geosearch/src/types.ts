@@ -92,3 +92,9 @@ export interface Children {
   lat: number;
   lon: number;
 }
+
+export type Polygon = {
+  coordinates: { lat: number; lon: number }[];
+};
+
+export type BusState = { [name: string]: TFLResult };
