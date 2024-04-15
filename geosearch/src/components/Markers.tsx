@@ -1,15 +1,11 @@
 import { Marker, Popup, useMapEvents } from "react-leaflet";
-import {
-  createCoordinatesFromBounds,
-  iconBus,
-  iconPerson,
-  trainsAndSubway,
-} from "../utils";
+import { createCoordinatesFromBounds, iconBus, iconPerson } from "../utils";
 import { useState } from "react";
 
-import { Document, TFLResult } from "../types";
+import { BusState, Document, Polygon } from "../types";
 import { Result } from "@orama/orama";
 import { OramaClient } from "@oramacloud/client";
+import { BusPopup } from "./BusPopup";
 
 export const client = new OramaClient({
   endpoint: "https://cloud.orama.run/v1/indexes/busstopslondon-g27ndc",
@@ -17,6 +13,9 @@ export const client = new OramaClient({
 });
 
 export const Markers = ({ lat, lon }: { lat: number; lon: number }) => {
+  const [stops, setStops] = useState<Result<Document>[]>([]);
+  const [busStations, setBusStations] = useState<BusState>({});
+
   useMapEvents({
     zoomend: (e) =>
       getStops({
@@ -28,13 +27,7 @@ export const Markers = ({ lat, lon }: { lat: number; lon: number }) => {
       }),
   });
 
-  const [stops, setStops] = useState<Result<Document>[]>([]);
-  const [busStations, setBusStations] = useState<{ [name: string]: TFLResult }>(
-    {}
-  );
-  const getStops = async (polygon: {
-    coordinates: { lat: number; lon: number }[];
-  }) => {
+  const getStops = async (polygon: Polygon) => {
     const stops = await client.search({
       term: "",
       limit: 150,
@@ -49,9 +42,7 @@ export const Markers = ({ lat, lon }: { lat: number; lon: number }) => {
   };
 
   const getStationInfo = async (code: number) => {
-    const data = await fetch(
-      `https://api.tfl.gov.uk/StopPoint/Sms/${code}`
-    ).then((rsp) => rsp.json());
+    const data = await getStationInfo(code);
     setBusStations((stations) => ({
       ...stations,
       [code]: data,
@@ -70,40 +61,11 @@ export const Markers = ({ lat, lon }: { lat: number; lon: number }) => {
               click: () => getStationInfo(stop.document.Bus_Stop_Code),
             }}
           >
-            <Popup>
-              {busStations[stop.document.Bus_Stop_Code] ? (
-                <>
-                  <h2 className="font-bold mb-4 text-lg">
-                    {busStations[stop.document.Bus_Stop_Code].commonName}
-                  </h2>
-                  <h3 className="mb-2">Lines:</h3>
-                  <ul className="flex gap-2 flex-wrap">
-                    {busStations[stop.document.Bus_Stop_Code].lines
-                      .filter((l) => !trainsAndSubway.includes(l.name))
-                      .map((line) => (
-                        <li
-                          className={[
-                            `text-white p-2 rounded-full w-12 text-center h-12 border-4 flex items-center font-bold justify-center`,
-                            line.name.includes("N")
-                              ? "border-[#A2BADD]"
-                              : "border-[#FF251B]",
-                          ].join(" ")}
-                        >
-                          <a
-                            href={`https://tfl.gov.uk/bus/route/${line.name}/`}
-                            target="_blank"
-                            className="text-white"
-                          >
-                            {line.name}
-                          </a>
-                        </li>
-                      ))}
-                  </ul>
-                </>
-              ) : (
-                "loading"
-              )}
-            </Popup>
+            <BusPopup
+              busStations={busStations}
+              key={stop.document.Bus_Stop_Code}
+              stop={stop.document}
+            />
           </Marker>
         ))}
       <Marker position={[lat, lon]} icon={iconPerson}>

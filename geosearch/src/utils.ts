@@ -44,3 +44,8 @@ export const iconPerson = new L.Icon({
   iconUrl: "/person.svg",
   iconSize: new L.Point(70, 50),
 });
+
+export const getStationInfoByCode = (code: number) =>
+  fetch(`https://api.tfl.gov.uk/StopPoint/Sms/${code}`).then((rsp) =>
+    rsp.json()
+  );
