@@ -1,4 +1,4 @@
-import { Marker, Popup, useMapEvents } from "react-leaflet";
+import { Marker, useMapEvents } from "react-leaflet";
 import { createCoordinatesFromBounds, iconBus, iconPerson } from "../utils";
 import { useState } from "react";
 
@@ -68,9 +68,7 @@ export const Markers = ({ lat, lon }: { lat: number; lon: number }) => {
             />
           </Marker>
         ))}
-      <Marker position={[lat, lon]} icon={iconPerson}>
-        <Popup>You</Popup>
-      </Marker>
+      <Marker position={[lat, lon]} icon={iconPerson} />
     </>
   );
 };
