@@ -4,13 +4,7 @@ import { useState } from "react";
 
 import { BusState, Document, Polygon } from "../types";
 import { Result } from "@orama/orama";
-import { OramaClient } from "@oramacloud/client";
 import { BusPopup } from "./BusPopup";
-
-export const client = new OramaClient({
-  endpoint: "https://cloud.orama.run/v1/indexes/busstopslondon-g27ndc",
-  api_key: "9bxpdZvGe6m3bvKnLlyhjCwBm2BG2Daq",
-});
 
 export const Markers = ({ lat, lon }: { lat: number; lon: number }) => {
   const [stops, setStops] = useState<Result<Document>[]>([]);
@@ -18,28 +12,14 @@ export const Markers = ({ lat, lon }: { lat: number; lon: number }) => {
 
   useMapEvents({
     zoomend: (e) =>
-      getStops({
+      console.log({
         coordinates: createCoordinatesFromBounds(e.target.getBounds()),
       }),
     dragend: (e) =>
-      getStops({
+      console.log({
         coordinates: createCoordinatesFromBounds(e.target.getBounds()),
       }),
   });
-
-  const getStops = async (polygon: Polygon) => {
-    const stops = await client.search({
-      term: "",
-      limit: 150,
-      returning: ["location", "Bus_Stop_Code"],
-      where: {
-        location: {
-          polygon,
-        },
-      },
-    });
-    setStops(stops?.hits || []);
-  };
 
   const getStationInfo = async (code: number) => {
     const data = await getStationInfo(code);
@@ -68,9 +48,7 @@ export const Markers = ({ lat, lon }: { lat: number; lon: number }) => {
             />
           </Marker>
         ))}
-      <Marker position={[lat, lon]} icon={iconPerson}>
-        <Popup>You</Popup>
-      </Marker>
+      <Marker position={[lat, lon]} icon={iconPerson} />
     </>
   );
 };
