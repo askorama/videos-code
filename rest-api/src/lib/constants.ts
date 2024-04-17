@@ -1,3 +1,5 @@
+import { Game } from "./types";
+
 export const FAKE_GAMES = [
   {
     id: 412,
@@ -353,4 +355,4 @@ export const FAKE_GAMES = [
       console: "nes",
     },
   },
-];
+] as { id: number; score: number; document: Game }[];

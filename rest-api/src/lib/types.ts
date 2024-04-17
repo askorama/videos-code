@@ -5,7 +5,6 @@ export interface Game {
   first_release_date: number;
   name: string;
   slug: string;
-  url: string;
   igdb_id: number;
   console: "nes";
 }
