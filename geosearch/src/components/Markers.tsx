@@ -1,4 +1,4 @@
-import { Marker, Popup, useMapEvents } from "react-leaflet";
+import { Marker, useMapEvents } from "react-leaflet";
 import { createCoordinatesFromBounds, iconBus, iconPerson } from "../utils";
 import { useState } from "react";
 
