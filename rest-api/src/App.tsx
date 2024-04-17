@@ -15,7 +15,7 @@ export default function App() {
           type="search"
           onChange={(e) => setQuery(e.target.value)}
           value={query}
-          placeholder="Search for a PS1 Game"
+          placeholder="Search for a NES Game"
         />
         <Results games={FAKE_GAMES} />
       </div>
