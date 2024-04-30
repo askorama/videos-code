@@ -29,18 +29,6 @@ const config: Config = {
     locales: ["en"],
   },
 
-  plugins: [
-    ["@orama/plugin-docusaurus-v3", 
-    {
-      cloud: {
-        indexId: "hl6i124dkatlx1fmpi9crt22",
-        oramaCloudAPIKey: process.env.ORAMA_CLOUD_API_KEY, // Env variable suggested
-        deploy: true // Enables deploy while building/starting
-      },
-    },
-    ]
-  ],
-
   presets: [
     [
       "classic",
